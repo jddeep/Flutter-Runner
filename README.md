@@ -9,7 +9,7 @@ builds a release apk to run on all mobile devices(android) and runs the flutter 
 
 ```
 action.yml
-name: 'Flutter Mate'
+name: 'Flutter Runner'
 description: 'Github action for apk building for flutter apps.'
 runs:
   using: 'docker'
