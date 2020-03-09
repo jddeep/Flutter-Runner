@@ -1,6 +1,6 @@
-# Github Action for Flutter Testing
+# Flutter Runner
 
-This action provides `flutter` for Github Actions.
+`flutter` as in Github Actions.
 
 ## Usage examples
 
