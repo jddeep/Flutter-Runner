@@ -1,4 +1,4 @@
-FROM jddeep/flutter
+FROM gableroux/flutter
 
 LABEL version="1.0.0"
 LABEL name="flutter"
