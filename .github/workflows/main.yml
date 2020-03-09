@@ -1,0 +1,18 @@
+on: push
+name: build and test app
+jobs:
+  build:
+    name: install dependencies
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: install dependencies
+      uses: ./action
+      with:
+        args: pub get
+
+    - name: build apk
+      uses: ./action
+      with:
+        args: build apk --release

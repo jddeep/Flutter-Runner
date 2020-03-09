@@ -1,0 +1,5 @@
+name: 'Flutter Runner'
+description: 'This action provides flutter support for your apps to build apks from the repo.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
